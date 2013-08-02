@@ -1,0 +1,70 @@
+1  Dominio de la aplicación. 
+La DIEEI (Dirección de Innovación Educativa e Investigación) de la UPCH se encarga de gestionar las actividades asociadas al desarrollo de proyectos de investigación por lo cual trata con profesores y alumnos que crean, diseñan   y ejecutan los proyectos. En esta Dirección todas las actividades que se realizan se hacen de forma manual con formatos físicos y tratos verbales. Esto produce una acumulación masiva de documentos que son difíciles de mantener organizados, lo que conlleva a que la información sobre el registro y el seguimiento del proyecto no esté disponible en tiempo y en forma.  Para acceder a la información de los proyectos y llevar un seguimiento eficiente sobre estos se necesita desarrollar un sistema informático que solvente dicha problemática. 
+Por ello se ha pensado en el desarrollo del Sistema de Gestión de Proyectos de investigación el cual permitirá a usuarios autenticarse por medio del sistema de cuentas del  SIIUN (Sistema Integral de Información de la Universidad) para  registrar en línea su proyecto proporcionando una breve descripción. Este registro permitirá a la DIEEI evaluar los proyectos y aceptándolos o rechazándolos a través  del  sistema. Asimismo,  cuando los proyectos son aceptados la DIEEI podrá llevar el seguimiento a fondo de los mismos.
+Este sistema es creado para que los alumnos y profesores de la UPCH tengan un mejor seguimiento de sus proyectos  con el fin de minimizar el tiempo implicado en consultas físicas de documentos. El sistema se encargará de actualizar toda clase de evidencias en distintos tipos de formatos lo que permitirá a los usuarios optimizar las actividades de registro y consulta de información con respecto a sus proyectos. 
+
+
+
+
+
+
+
+
+
+
+2	Procesos de negocio.
+1.- Guía de proyectos alumnos.
+A.- Entrega de proyectos para evaluación. 
+I.- Autentificar en el sistema.
+II.- Llenar formato de registro del proyecto.
+III.- Incluir descripción del proyecto.
+IV.- Enviar todos los documentos al docente.
+B.- Diseño de proyectos.
+I.- Definición del problema que aborda el  proyecto.
+II. Justificar la identificación de necesidades a solventar.
+III.- Formular  hipótesis.
+IV.-Generar cronograma.
+V.- Entrega de proyectos para evaluación (alumno).
+2.- Guía de proyectos profesor.
+A.- Entrega de proyectos para evaluación.
+I.- Autentificar en el sistema.
+II.- Llenar formato de registro del proyecto.
+III.- Incluir descripción del proyecto.
+IV.- Enviar todos los documentos al Director de proyectos de innovación.
+B.- Evaluar a alumno.
+I.- Verificar formato registro del proyecto del alumno.
+II.- Evaluar la descripción del proyecto del alumno.
+1.- Falso.
+2.- Verdadero.
+2.1.- Enviar información al director de innovación  educativa e investigación.
+2.2.- Recibir confirmación.
+2.3.- Enviar respuesta de confirmación al alumno.
+2.4.- Esperar resultado de la evaluación.
+2.5.- Comunicar resultado al alumno.
+C.- Diseño de proyectos.
+I.- Definición del problema que aborda el  proyecto.
+II. Justificar la identificación de necesidades a solventar.
+III.- Formular  hipótesis.
+IV.-Generar cronograma.
+V.- Entrega de proyectos para evaluación.
+3.- Gestión de proyectos.
+A.- Administración de proyectos.
+I.- Recibir datos del participante.
+II.- Realizar estudio del proyecto.
+III.- Evaluar proyecto.
+1.- Verdadero.
+1.1.- Generar número de registro.
+1.2.- Generar constancia de registro.
+1.3.- Enviar respuesta de aceptación.
+2.- Falso.
+2.1.- Enviar respuesta de rechazo.
+
+B.- Seguimiento de  cronogramas presentados.
+I.- Identificar  avances por fechas para las actividades de los proyectos.
+II.- Seguimiento de fechas especificadas.
+III.- Recibir aviso de entrega.
+1.- Falso.
+1.1.- Revisar justificación de falta.
+2.- Verdadero.
+2.1.- Actualizar  por fechas las actividades realizadas.
+2.2.- Adjuntar archivos que justifican las evidencias.
