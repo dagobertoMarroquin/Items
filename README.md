@@ -77,11 +77,11 @@ A.         Atributos de Características	18
 Visión
 
 1.	Introducción
-
+(agregar una nueva introduccion)
 1.1	Propósito
 
 El objetivo de este documento obtener  las necesidades de alto nivel y las características del  sistema de gestión de proyectos. Este documento está relacionado con aquellas personas que están involucradas en el sistema incluyendo al usuario final. La gestión de proyectos tiene como objetivo resolver el problema con la documentación y el registro de las personas que se interesan en algún proyecto, de esta manera el sistema gestión de proyectos podrá resolver problemas futuros basados a problemas actuales. Para mayor precisión de lo que se pretende hacer con este sistema, se podría observar en los casos de usos presentados más adelante. En ello se realiza un representación de como se ve en sistemas y las acciones a realizar por el mismo.
-
+(El objetivo es muy simple)
 1.2	Alcance
 
 Este documento contiene la descripción del sistema gestión de proyectos. La gestión de proyectos se basa en la solución a las necesidades otorgadas por el cliente, en este caso se demanda que el sistema pueda registrar a los alumnos y maestra participantes en algún proyecto así como llevar el historial de los mismo participantes, de tal manera que el problema sea resuelto, otra de las necesidades que surge por parte del cliente, es facilitar la documentación que se llena manualmente a través de formatos. 
@@ -95,9 +95,9 @@ RUP: Son las siglas de Rational Unified Process. Se trata de una metodología pa
 1.4	Referencias
 
 -	Glosario.
--	Plan de desarrollo de software.
+-	Plan de desarrollo de software (los items a modificar).
 -	RUP (Rational Unified Process).
--	Diagrama de casos de uso.
+-	Diagrama de casos de usos.
 
 
 
