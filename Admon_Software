@@ -1,0 +1,109 @@
+Plan de la administración de la configuración del software.
+ 
+
+1.  Introducción
+Documento que describe las diferentes actividades de gestión de configuración de software. 
+Esta gestión de plan se pretende aplicar en GPI afines de software en el presente documento.
+1.1	Objetivo
+Este Plan de Gestión de la configuración del software nos permite proporcionar información sobre los requisitos
+y procedimientos necesarios para las actividades  destinadas a la configuración del software dentro de la Gestión
+de Proyectos de Investigación (GPI). 
+Este plan identifica el software así como hardware y documentación de los requisitos para la configuración del 
+software, estableciendo una metodología  que permita generar o producir  identificadores de configuración, gestión
+de ingeniería, entrada y salida de cambios de formato, manteniendo un sistema contable y realizar evaluaciones así 
+como comentarios durante el análisis de requerimientos, diseño, desarrollo y mantenimiento del software.
+
+1.2	Alcance
+Este documento despliega una infraestructura de gestión de configuración de software para GPI (
+Gestión de Proyecto de Investigación) con el fin de satisfacer las necesidades de un conjunto de
+usuarios definidos así como administrar un entorno de programación  confortable. Esto incluye documentación
+y gestión de registros.
+En GPI la calidad del proyecto utiliza un enfoque en función de errores a futuro. Lo que significa que los
+procesos de gestión de configuración de software se han desarrollados para la fase de implementación, para
+su aplicación. Este plan se guía del traje IEEE Std 828-19951 para garantizar que se traten los temas de 
+configuración más sobresalientes.
+
+
+2.  Administración
+Esta sección describe la organización de la gestión de configuración de software, la asignación de la responsabilidad para las actividades de gestión de la configuración de software y de las referencias de la configuración del software así como las políticas y directivas relacionadas con el uso de GPI (Gestión de Proyectos de Investigación).  La documentación se mantendrá bajo la gestión de configuración de software siempre y cuando GPI se encuentre en continuo desarrollo.
+
+2.1	Organización y  Responsabilidades
+La gestión de la configuración de GPI (Gestión de Proyectos de Investigación) está diseñado para asegurar autoridad y proporcionar un marco de control administrativo y técnico de actividades de desarrollo y mejora que se puede integrar con eficiencia en los Proyectos de Investigación (PI). 
+La autoridad principal de la gestión del software recae en el administrador de configuración de software,  recae en el la configuración del software  que puede ser llevado  a cabo por un implementador de código. 
+
+2.1.1	Administrador de documentos.
+Se encarga de administrar, crear y difundir los documentos necesarios para la realización del sistema.
+Garantiza la comprobación y verificación de las versiones depurada, proporciona orientación sobre el desarrollo de software. El administrador de documentos es responsable de   mantener el control de la gestión de software de GPI y las relaciones por aprobar o rechazar basados en impactos necesarios.
+También asegura a desarrolladores de software GPI afines de estar capacitados para los requisitos, procedimientos y políticas de GPI. 
+
+2.1.2	Asesor y revisor del proyecto.
+Mantienen  y controlan los cambios realizados en GPI (Gestión de Proyectos de Investigación), proporcionan un historial rastreable del software y mecanismo para recrear todas las versiones.
+El revisor del proyecto tiene la responsabilidad de:
+•	Asegurar el repositorio de código en GIT, se establece y mantiene el apoyo del software.
+•	Mantener el registro  para mostrar l estado de los cambios propuestos, aprobado y concluido.
+•	Almacena  una lista de usuarios de  GPI identificadas en este plan de administración de la configuración del software.
+El asesor del proyecto tiene la responsabilidad de guiar las acciones del revisor del proyecto de acuerdo a las políticas establecidas con anterioridad.
+
+2.1.3	Implementador.
+Es la responsabilidad más importante ya que, esta persona se encargara de que la el proyecto funcione tal y como el cliente lo está necesitando. Codifica la solución  y muestra todas sus capacidades intelectuales para poder llevar a la realidad el proyecto incluyendo todas las necesidades que se han planteado.
+Son responsables de garantizar los cambios en virtud de este plan, solo se llevan a cabo de acuerdo a las políticas, procedimientos y requisitos de GPI. El implementador debe recibir formación sobre GPI antes que realice  tareas en base a cambios aprobados.
+
+2.1.4	Diseñador de interfaz.
+Se encarga de diseñar la interfaz siguiendo el modelo trazado por el administrador de UML. El diseñador recibe información necesaria del administrador de UML antes de que se le permita realizar las tareas aprobadas. Tiene que estar de acuerdo con las políticas, procedimientos y requisitos de GPI.
+
+
+2.1.5	Líder de equipo.
+Tiene como responsabilidad administrar el equipo y las tareas que se encomienda a cada uno de los desarrolladores, dando una organización adecuada para el cumplimiento individual de cada parte fundamental que integra al proyecto, es necesario abarcar todos los requisitos de GPI para garantizar un resultado favorable.
+
+
+2.1.6	Administrador de UML.
+Se encarga de plasmar la idea del proyecto, diseñando un modelo capaz de  describir las necesidades, debe  diseñar un modelo correcto, sin ambigüedades y entendible tanto para el cliente como para los desarrolladores teniendo en cuenta su efectividad.
+
+2.1.7	Revisor de la implementación.
+La responsabilidad del revisor son para probar el software GPI afines de verificar que los requisitos y políticas se aplican sobre la base de su desarrollo. El revisor de la implementación es el responsable de la generación de informe de prueba con el resultado.
+
+
+
+3.	Actividades
+Esta sección identifica todas las funciones y actividades necesarias para gestionar la configuración del software. Las actividades de gestión de configuración de software se agrupan en cuatro áreas generales:
+•	Identificación de la configuración del software.
+•	Control de la configuración del software.
+•	Configuración de software de contabilidad de estado.
+•	Las evaluaciones de gestión de configuración de software y revisiones.
+
+3.1	Identificación del software de configuración.
+Este esquema de identificación permitirá a los miembros del equipo del proyecto localizar cada archivo fuente que permita contener uno o más subrutinas para un operativo particular de manera rápida y fácil.
+
+
+3.1.1	Identificación de los elementos de configuración.
+El control de versiones y la gestión de su código fuente del software serán apoyados por GIT como el sistema de gestión de la configuración. Se podrá modificar gracias a la administración de código fuente del sistema	(SMC) con énfasis en la velocidad. Un sistema de números de revisión se llevara a cabo en GIT  para  todos los archivos, incrementando cada revisión por número La revisión de números en el archivo de origen cambian el número de revisión de subrutinas dentro del mismo archivo ya que han sido afectados por el cambio. El número de revisión para cada archivo de GPI visitada durante su ejecución será impreso para el archivo de salida y se guardara de forma SCR durante la implementación del cambio.
+El código fuente GPI contiene un método directo que se puede usar en los problemas  pequeños con poca memoria.
+
+
+
+
+3.1.1.1	Identificación de documentación de software.
+Los documentos se pueden dividir en categorías:
+1)	Los documentos principales:
+
+Estos documentos se identifican por los números de su versión, como  el documento de visión y alcance, la definición de problema y el documento de requisitos del sistema.
+
+2)	Adendas y erratas:
+
+Se utilizan para documentar las principales revisiones, desarrollos o modificaciones, actualmente el documento  de visión y alcance, la definición de problema y el documento de requisitos del sistema. Estas se actualizan según sea necesario informar.
+
+3)	Documentación de apoyo:
+Incluye los documentos de diseño, plan de configuración del software. Esta documentación se mantendrá en Microsoft Word con controlador de versiones  y mantenida por el administrador de documentos. El seguimiento de cambios se utilizara para registrar los cambios desde la última versión.
+
+3.1.1.2	Fuente del software, almacenamiento y conservación de documentos.
+Los documentos de software tanto de la conservación como depósitos serán responsabilidad del administrador de documentos. Todo código fuente se mantendrá  en GPI, así como la documentación relativa a GPI y la gestión de la configuración, requisitos del software y documentos relacionados. 
+Los directorios incluyendo el repositorio se copiara en el disco duro, esta copias de seguridad serán incrementadas.
+Las copias de seguridad completas se hará el primer día de cada mes, una retención de un mes para todos los  datos correspondientes a GPI, pasando el mes serán guardados en CD y eliminados del controlador de versiones dejando únicamente una copia en el disco duro,
+
+3.1.2	Líneas de base de cambios.
+Cada módulo de software estará sujeto a los cambios de configuración de las líneas de base, ya que se ven afectados por cada solicitud de cambio.
+
+3.1.3	Ciclo del modelo de vida.
+Se establece para garantizar la evolución adecuada hasta la finalización del proyecto. A continuación se define el modelo de vida.
+
+
